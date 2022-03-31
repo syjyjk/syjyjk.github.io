@@ -15,5 +15,9 @@ list_title: Blogs
 layout: home
 ---
 
-
+There should be a brief introduction in the future
+This is a picture for Boltzmann's bust and his formula:
+<div align="center">
+<img src="./pictures/boltzmann.jpg" width="70%" height="70%"/>
+</div>
 
