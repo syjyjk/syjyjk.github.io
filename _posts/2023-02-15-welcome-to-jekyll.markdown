@@ -1,16 +1,19 @@
 ---
 layout: post
-title:  "Hello Blog - Ruby与Jekyll的安装指南(Windows操作系统)"
+title:  Github Blog搭建入门 (Windows操作系统)"
 date:   2023-01-07 21:32:15 +0800
 categories: settings
 ---
-这篇文章记录了我搭建个人Blog的过程，以供在未来重装系统时参考。
-对于同样开始类似尝试的初学者, 希望文章具有些借鉴意义。
+这篇文章记录了我作为一个新手搭建个人Blog的过程，以供在未来重装系统时参考。
+对于有同样需求的初学者, 希望文章具有些借鉴意义。
 
-本文的主要内容参考自官方说明。链接地址分别是:
+本文分为两部分，第一部分介绍如何利用Jekyll生成博客模板， 第二部分介绍如何将博客模板上传到Github并在Github平台上开启个人博客站点。
+
+Jekyll的配置主要参考自官方教程。链接地址分别是:
 1. 安装Ruby Installer : [https://www.jekyll.com.cn/docs/installation/windows/](https://www.jekyll.com.cn/docs/installation/windows/)
 2. 安装Jekyll与bundler, 创建Blog并启动本地服务器 : [https://www.jekyll.com.cn/docs/](https://www.jekyll.com.cn/docs/)
 
+Github Pages的配置
 # Jekyll是什么
 根据Jekyll中文官网的描述，Jekyll是一个将文本转换为网页的工具。
 将这些网站上传到服务器后, 其他人可以通过访问浏览这些网页(也就是访问我们的博客)。
