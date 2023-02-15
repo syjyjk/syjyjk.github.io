@@ -9,17 +9,18 @@ categories: settings
 
 本文分为两部分，第一部分介绍如何利用Jekyll生成博客模板， 第二部分介绍如何将博客模板上传到Github并在Github平台上开启个人博客站点。
 
+### 利用Jekyll生成博客模板
+
 Jekyll的配置主要参考自官方教程。链接地址分别是:
 1. 安装Ruby Installer : [https://www.jekyll.com.cn/docs/installation/windows/](https://www.jekyll.com.cn/docs/installation/windows/)
 2. 安装Jekyll与bundler, 创建Blog并启动本地服务器 : [https://www.jekyll.com.cn/docs/](https://www.jekyll.com.cn/docs/)
 
-Github Pages的配置
-# Jekyll是什么
+#### Jekyll是什么
 根据Jekyll中文官网的描述，Jekyll是一个将文本转换为网页的工具。
 将这些网站上传到服务器后, 其他人可以通过访问浏览这些网页(也就是访问我们的博客)。
 因此Jekyll是一个很常用的博客生成工具。
 
-# Windows操作系统下安装Jekyll
+##### Windows操作系统下安装Jekyll
 1. 在安装Jekyll前，需要下载安装[Ruby+Devkit]。
   - 下载地址 : [https://rubyinstaller.org/downloads/](https://rubyinstaller.org/downloads/)
   - 安装Ruby+Devkit, 尽可能在外网环境安装。
@@ -37,11 +38,15 @@ gem install jekyll bundler
 jekyll new yourblogname
 ```
 
-
 4. 启动本地Blog服务器
 ```
 bundle exec jekyll serve
 ```
+
+### 将模板上传到Github， 并在Github平台开启个人博客站点。
+
+1. 在github上创建名为$username.github.io的repository.
+
 
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
